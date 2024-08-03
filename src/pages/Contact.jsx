@@ -61,7 +61,7 @@ export default function Contact() {
                 {emailError && (<p>Email is required</p>)}
                 {messageError && (<p>Message is required</p>)}
                 {invalidEmailError && (<p>Email is invalid</p>)}
-                <button type="submit" className={"btn btn-primary"}>Send</button>
+                <button type="button" className={"btn btn-primary"}>Send</button>
             </form>
         </div>
     );
